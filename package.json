@@ -1,6 +1,6 @@
 {
   "name": "tester-mesh-u5c-provider",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "An UTxO RPC provider for the Mesh transaction builder",
   "main": "./lib/index.js",
   "exports": {
