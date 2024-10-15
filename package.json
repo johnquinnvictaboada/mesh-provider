@@ -1,6 +1,6 @@
 {
   "name": "tester-mesh-u5c-provider",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "An UTxO RPC provider for the Mesh transaction builder",
   "main": "./lib/index.js",
   "exports": {
@@ -25,13 +25,13 @@
   "author": "Chow",
   "license": "ISC",
   "devDependencies": {
-    "typescript": "^5.6.2",
-    "tsx": "^4.19.1",
     "eslint": "^9.10.0",
     "eslint-config-prettier": "^9.1.0",
     "globals": "^15.9.0",
     "prettier": "^3.3.3",
     "tsup": "^8.2.4",
+    "tsx": "^4.19.1",
+    "typescript": "^5.6.2",
     "typescript-eslint": "^8.4.0"
   },
   "dependencies": {
@@ -40,6 +40,7 @@
     "@meshsdk/core": "^1.7.9",
     "@meshsdk/core-csl": "^1.7.6",
     "@utxorpc/sdk": "^0.6.1",
-    "@utxorpc/spec": "^0.10.1"
+    "@utxorpc/spec": "^0.10.1",
+    "tester-mesh-u5c-provider": "^0.1.0"
   }
 }

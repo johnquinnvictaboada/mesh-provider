@@ -7,5 +7,14 @@ export default defineConfig({
   splitting: false,
   sourcemap: true,
   clean: true,
-  outDir: "lib"
+  outDir: "lib",
+  external: [
+    "@blaze-cardano/core",
+    "@meshsdk/common",
+    "@meshsdk/core",
+    "@meshsdk/core-csl",
+    "@utxorpc/sdk",
+    "@utxorpc/spec",
+  ],
+  noExternal: []
 });
